@@ -14,8 +14,6 @@
   "author": "gabriellesc <gabriellesinghcadieux@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.1",
-    "node-php": "0.0.1",
-    "path": "^0.12.7"
+    "node-php-server": "^0.1.2"
   }
 }
