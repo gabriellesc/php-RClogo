@@ -22,7 +22,7 @@ function genHTML($width, $height, $color, $top, $left, $position,
 }
 
 echo genHTML(12, 9.5, 'black', 0, 0, 'static', '',
-         genHTML(8, 5.5, 'transparent', 1, 1, 'relative', 'border:' . $unit . 'px solid white;', 
+         genHTML(8, 5.5, 'transparent', 1, 1, 'relative', 'border:' . $unit . 'px solid white;box-sizing:content-box;', 
 	     genHTML(1, 1, $green, 1, 0, 'absolute'),
              genHTML(1, 1, $green, 1, 2, 'absolute'),
              genHTML(1, 1, $green, 1, 4, 'absolute'),
